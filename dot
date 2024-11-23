@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Description: A redirection to a valet command.
+
+valet "$@"
