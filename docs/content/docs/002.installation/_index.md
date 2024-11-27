@@ -18,7 +18,7 @@ Run the following command to install Valet:
 
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/jcaillon/valet/latest/valet.d/commands.d/self-install.sh)"
-git clone --reference latest https://github.com/jcaillon/devops-toolbox ~/.valet/devops-toolbox
+git clone --reference latest https://github.com/jcaillon/valet-devops-toolbox ~/.valet/valet-devops-toolbox
 valet self build
 ```
 
@@ -30,7 +30,7 @@ Here is an example command to install Valet with the option `--unattended`:
 
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/jcaillon/valet/latest/valet.d/commands.d/self-install.sh)" -s --unattended
-git clone --reference latest https://github.com/jcaillon/devops-toolbox ~/.valet/devops-toolbox
+git clone --reference latest https://github.com/jcaillon/valet-devops-toolbox ~/.valet/valet-devops-toolbox
 valet self build
 ```
 

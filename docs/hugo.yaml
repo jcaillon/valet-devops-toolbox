@@ -1,4 +1,4 @@
-baseURL: https://jcaillon.github.io/devops-toolbox/
+baseURL: https://jcaillon.github.io/valet-devops-toolbox/
 languageCode: en-us
 title: DevOps Toolbox
 module:
@@ -36,12 +36,12 @@ menu:
         type: search
     - name: Discussions ↗
       weight: 50
-      url: "https://github.com/jcaillon/devops-toolbox/discussions"
+      url: "https://github.com/jcaillon/valet-devops-toolbox/discussions"
       params:
         icon: chat-alt-2
     - name: GitHub ↗
       weight: 50
-      url: "https://github.com/jcaillon/devops-toolbox"
+      url: "https://github.com/jcaillon/valet-devops-toolbox"
       params:
         icon: github
 
@@ -64,7 +64,7 @@ params:
     logo:
       path: favicon.svg
       dark: favicon-dark.svg
-      link: /devops-toolbox/
+      link: /valet-devops-toolbox/
       width: 50
 
   footer:
@@ -73,7 +73,7 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/jcaillon/devops-toolbox/edit/main/docs/content"
+    base: "https://github.com/jcaillon/valet-devops-toolbox/edit/main/docs/content"
 
   page:
     # full (100%), wide (90rem), normal (1280px)
