@@ -28,5 +28,10 @@ function gitlabProjects() {
   core::parseArguments "$@" && eval "${RETURNED_VALUE}"
   core::checkParseResults "${help:-}" "${parsingErrors:-}"
 
+  if command -v gitlab::getProjects &>/dev/null; then
+    gitlab::getProjects "${role}"
+  else
+    core::fail "Function 'gitlab::getProjects' not implemented."
+  fi
   :;
 }

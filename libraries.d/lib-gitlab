@@ -20,5 +20,5 @@
 # done
 # ```
 function gitlab::getProjects() {
-  :;
+  log::info "Getting projects from GitLab..."
 }
