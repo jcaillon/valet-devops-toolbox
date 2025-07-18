@@ -25,8 +25,8 @@ source gitlab
 ##VALET_COMMAND
 function gitlabProjects() {
   local role
-  core::parseArguments "$@" && eval "${RETURNED_VALUE}"
-  core::checkParseResults "${help:-}" "${parsingErrors:-}"
+  command::parseArguments "$@" && eval "${REPLY}"
+  command::checkParsedResults
 
   if command -v gitlab::getProjects &>/dev/null; then
     gitlab::getProjects "${role}"

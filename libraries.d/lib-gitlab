@@ -11,11 +11,11 @@
 #
 # Returns:
 #
-# - `RETURNED_ARRAY`: The list of projects.
+# - `REPLY_ARRAY`: The list of projects.
 #
 # ```bash
 # gitlab::getProjects "developer"
-# for project in "${RETURNED_ARRAY[@]}"; do
+# for project in "${REPLY_ARRAY[@]}"; do
 #   echo "$project"
 # done
 # ```
